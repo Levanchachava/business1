@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+}
+
+
+.business-cont {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(6, 7, 22);
+
+}
+.business-cont h2 {
+    font-weight: 600;
+    font-size: 48px;
+    width: 622px;
+    line-height: 160%;
+    color: white;
+    margin-top: 98px;
+}
+
+
+.business-info p {
+    width: 570px;
+    height: 93px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.business-cont button {
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: 17px;
+    margin-top: 40px;
+    border: none;
+}
+
+.business-reward {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+.reward1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.reward1:nth-child(2) {
+    width: 470px;
+    height: 115px;
+    background: linear-gradient(153.47deg, rgba(161, 161, 161, 0) -341.94%, #4a435a 95.11%);
+    box-shadow: 0px 20px 100px -10px rgba(154, 158, 174, 0.1);
+    border-radius: 20px;
+}
+
+.reward1:first-child {
+    margin-top: 0;
+}
+
+.reward-info {
+    margin-left: 25px
+}
+
+.photo {
+    background: rgba(9, 151, 124, 0.1);
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo img {
+    width: 28px;
+}
+
+
+.reward-info h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+.reward-info p {
+    width: 326px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 1150px) {
+    .business-info h2 {
+        font-size: 38px;
+        line-height: 150%;
+    }
+    .business-info p {
+        font-size: 14px;
+        line-height: 160%;
+        width: 370px;
+    }
+    .business-info button {
+        width: 140px;
+        height: 60px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .reward1 h3 {
+        font-size: 17px;
+    }
+    .reward1 p {
+        font-size: 12px;
+        width: 280px;
+    }
+    .reward1:nth-child(2) {
+        width: 400px;
+    }
+    .reward1 {
+        margin-left: -270px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .business-cont {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .business-reward {
+        margin-top: 40px;
+    }
+
+     .business-info h2 {
+        font-size: 48px;
+        line-height: 150%;
+    }
+    .business-info p {
+        font-size: 18px;
+        margin-top: 40px;
+        line-height: 160%;
+        width: 590px;
+    }
+    .business-info button {
+        width: 180px;
+        height: 70px;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .reward1 h3 {
+        font-size: 18px;
+    }
+    .reward1 p {
+        font-size: 14px;
+        width: 320px;
+    }
+    .reward1:nth-child(2) {
+        width: 470px;
+        height: 100px;
+    }
+    .reward1 {
+        margin-left: 0;
+    } 
+}
+
+
+@media screen and (max-width: 710px) {
+
+    .business-cont {
+        margin-left: -50px;
+    }
+
+    .business-reward {
+        margin-top: 40px;
+    }
+
+
+    .business-info {
+        width: 300px;
+        margin-top: -70px;
+    }
+
+     .business-info h2 {
+        width: 400px;
+        font-size: 35px;
+        line-height: 130%;
+    }
+    .business-info p {
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 160%;
+        width: 400px;
+        margin-right: 0;
+    }
+    .business-info button {
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .reward1 h3 {
+        font-size: 16px;
+    }
+    .reward1 p {
+        font-size: 12px;
+        width: 320px;
+        line-height: 20px;
+    }
+    .reward1:nth-child(2) {
+        width: 440px;
+        height: 100px;
+    }
+    .reward-info {
+        margin-left: 0;
+        
+    } 
+}
+
+@media screen and (max-width: 490px) {
+
+    .business-info h2 {
+        width: 350px;
+        font-size: 28px;
+        line-height: 140%;
+    }
+    .business-info p {
+        font-size: 10px;
+        height: 60px;
+        margin-top: 20px;
+        line-height: 160%;
+        width: 320px;
+    }
+
+    .business-info button {
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .business-reward {
+        margin-top: 40px;
+    }
+
+    .business-info {
+        width: 270px;
+    }
+    .reward1 h3 {
+        font-size: 14px;
+    }
+    .reward1 p {
+        font-size: 10px;
+        width: 280px;
+        line-height: 20px;
+    }
+
+    .photo {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+
+    .photo img {
+        width: 15px;
+        
+    }
+
+    .reward1:nth-child(2) {
+        width: 350px;
+        height: 70px;
+    }
+}

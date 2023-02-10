@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+
+.stats-cont {
+    background-color: rgb(6, 7, 22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+}
+
+.stats h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40.8925px;
+    color: #FFFFFF;
+}
+
+.stats p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 16px;
+    text-transform: uppercase;
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.line {
+    width: 1px;
+    height: 18px;
+    background-color: rgb(151, 86, 0);
+}
+
+
+@media screen and (max-width: 1080px) {
+    .stats h2 {
+        font-size: 30px;
+    }
+    .stats p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .stats h2 {
+        font-size: 20px;
+    }
+    .stats p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .stats-cont {
+        margin-left: -50px;
+    }
+
+    .stats-cont {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .stats h2 {
+        font-size: 35px;
+    }
+    .stats p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .stats h2 {
+        font-size: 25px;
+    }
+    .stats p {
+        font-size: 12px;
+    }
+}

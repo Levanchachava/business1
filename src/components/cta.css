@@ -1,0 +1,210 @@
+.cta-cont {
+    background-color: rgb(6, 7, 22);
+    padding-bottom: 70px;
+}
+
+.cta-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-right: 90px;
+}
+
+.cta-logo img {
+    width: 189px;
+    height: 41.25px;   
+    margin-top: 70px;
+}
+
+.sevice-cont {
+    display: flex;
+    width: 95%;
+    height: 340px;
+    margin: 0 0;
+    margin-top: 50px;
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6a6767 -78.47%, #333248 91.61%);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.sevice-cont h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.sevice-cont p {
+    width: 445px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+}
+
+.sevice-cont button {
+    width: 170px;
+    height: 64px;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border-radius: 10px; 
+    border: none;
+}
+
+@media screen and (max-width: 1150px) {
+    .cta-logo img {
+        width: 150px;
+        height: 30px;
+    }
+    .sevice-cont h2 {
+        font-size: 40px;
+    }
+    
+    .sevice-cont p {
+        font-size: 14px;
+        line-height: 160%;
+    }
+    
+    .sevice-cont button {
+        width: 150px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .cta-logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cta-logo img {
+        margin-top: 40px;
+        width: 180px;
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 840px) {
+    .sevice-cont h2 {
+        font-size: 30px;
+    }
+    
+    .sevice-cont p {
+        font-size: 12px;
+        line-height: 160%;
+    }
+    
+    .sevice-cont button {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 740px) {
+
+    .cta-logo img {
+        width: 140px;
+        height: 30px;
+    }
+
+    .sevice-cont {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sevice-cont h2 {
+        font-size: 40px;
+    }
+    
+    .sevice-cont p {
+        font-size: 18px;
+        line-height: 160%;
+        margin-top: 10px;
+    }
+    
+    .sevice-cont button {
+        width: 140px;
+        height: 50px;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+}
+
+
+@media screen and (max-width: 665px) {
+
+    .sevice-cont {
+        height: 240px;
+    }
+
+    .cta-logo img {
+        width: 140px;
+        height: 30px;
+    }
+
+    .sevice-cont h2 {
+        font-size: 30px;
+    }
+    
+    .sevice-cont p {
+        font-size: 14px;
+        line-height: 160%;
+        margin-top: 10px;
+        width: 260px;
+    }
+    
+    .sevice-cont button {
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+
+    .cta-logo img {
+        width: 120px;
+        height: 30px;
+    }
+
+    .sevice-cont h2 {
+        font-size: 20px;
+    }
+    
+    .sevice-cont p {
+        font-size: 10px;
+        line-height: 160%;
+        margin-top: 10px;
+        width: 200px;
+    }
+    
+    .sevice-cont button {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 410px) {
+
+
+    .sevice-cont h2 {
+        font-size: 15px;
+    }
+    
+    .sevice-cont p {
+        font-size: 10px;
+        line-height: 160%;
+        margin-top: 10px;
+        width: 200px;
+    }
+    
+}
